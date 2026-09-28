@@ -13,5 +13,5 @@ horas_dia = float(input('Digite o tempo médio de uso diário [horas]: '))
 consumo_mensal = (potencia * horas_dia * 30) / 1000
 
 print('\n### Resultado ###')
-print('Aparelho: ()'.format(aparelho))
-print('Consumo estimado: (:.2f) kWh/mês'.format(consumo_mensal))
+print(f'Aparelho: {aparelho}')
+print(f'Consumo estimado: {consumo_mensal:.2f} kWh/mês')
