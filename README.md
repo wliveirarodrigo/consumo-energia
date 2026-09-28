@@ -18,3 +18,9 @@ Auxiliar na compreensão do consumo de energia elétrica dos aparelhos utilizado
 
 - 🐍 Python
 - 🐙 GitHub
+
+## 🧮 Fórmula utilizada
+
+O consumo mensal é calculado utilizando a seguinte fórmula:
+
+#consumoMensal = (potencia × horasDia × 30) / 1000
